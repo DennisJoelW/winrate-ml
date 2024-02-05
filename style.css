@@ -77,6 +77,7 @@ body::before {
     padding-bottom: 9px;
     border-radius: 7px;
     width: 500px;
+    margin-bottom: 10px;
 }
 
 #hasil{
@@ -93,7 +94,7 @@ body::before {
 
 
 .col-wr h4{
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .creds{
@@ -125,7 +126,6 @@ body::before {
         margin-bottom: 20px;
     }
 
-    
     .hitung{
         width: 350px;
     }
@@ -135,12 +135,19 @@ body::before {
     }
 
     .col-wr h4{
-        margin-bottom: 0px;
+        margin-bottom: 15px;
     }
 
     .hrbang{
         margin-top: 25px;
     }
+
+    #hasil{
+        font-size: 18px;
+        margin: 0px;
+        margin-top: 5px;
+    }
+    
 }
 
 @media (max-width:490px){
